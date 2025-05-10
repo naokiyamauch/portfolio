@@ -28,7 +28,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$three$2f$bui
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$three$2d$globe$2f$dist$2f$three$2d$globe$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/three-globe/dist/three-globe.mjs [app-client] (ecmascript)");
 ;
 var _s = __turbopack_context__.k.signature(), _s1 = __turbopack_context__.k.signature();
-"use client";
+'use client';
 ;
 ;
 ;
@@ -41,7 +41,7 @@ var _s = __turbopack_context__.k.signature(), _s1 = __turbopack_context__.k.sign
 const RING_PROPAGATION_SPEED = 3;
 const aspect = 1.2;
 const cameraZ = 300;
-let numbersOfRings = [
+const numbersOfRings = [
     0
 ];
 function Globe({ globeConfig, data }) {
@@ -51,12 +51,12 @@ function Globe({ globeConfig, data }) {
     const [isInitialized, setIsInitialized] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
     const defaultProps = {
         pointSize: 1,
-        atmosphereColor: "#ffffff",
+        atmosphereColor: '#ffffff',
         showAtmosphere: true,
         atmosphereAltitude: 0.1,
-        polygonColor: "rgba(255,255,255,0.7)",
-        globeColor: "#1d072e",
-        emissive: "#000000",
+        polygonColor: 'rgba(255,255,255,0.7)',
+        globeColor: '#1d072e',
+        emissive: '#000000',
         emissiveIntensity: 0.1,
         shininess: 0.9,
         arcTime: 2000,
@@ -97,7 +97,7 @@ function Globe({ globeConfig, data }) {
         "Globe.useEffect": ()=>{
             if (!globeRef.current || !isInitialized || !data) return;
             const arcs = data;
-            let points = [];
+            const points = [];
             for(let i = 0; i < arcs.length; i++){
                 const arc = arcs[i];
                 const rgb = hexToRgb(arc.color);
@@ -120,8 +120,8 @@ function Globe({ globeConfig, data }) {
             const filteredPoints = points.filter({
                 "Globe.useEffect.filteredPoints": (v, i, a)=>a.findIndex({
                         "Globe.useEffect.filteredPoints": (v2)=>[
-                                "lat",
-                                "lng"
+                                'lat',
+                                'lng'
                             ].every({
                                 "Globe.useEffect.filteredPoints": (k)=>v2[k] === v[k]
                             }["Globe.useEffect.filteredPoints"])
@@ -207,8 +207,8 @@ function Globe({ globeConfig, data }) {
         ref: groupRef
     }, void 0, false, {
         fileName: "[project]/components/ui/Globe.tsx",
-        lineNumber: 234,
-        columnNumber: 12
+        lineNumber: 239,
+        columnNumber: 9
     }, this);
 }
 _s(Globe, "V3qMflRaaXXgL95Cgjb35rRwQcg=");
@@ -241,32 +241,32 @@ function World(props) {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(WebGLRendererConfig, {}, void 0, false, {
                 fileName: "[project]/components/ui/Globe.tsx",
-                lineNumber: 255,
-                columnNumber: 13
+                lineNumber: 263,
+                columnNumber: 4
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ambientLight", {
                 color: globeConfig.ambientLight,
                 intensity: 0.6
             }, void 0, false, {
                 fileName: "[project]/components/ui/Globe.tsx",
-                lineNumber: 256,
-                columnNumber: 13
+                lineNumber: 264,
+                columnNumber: 4
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("directionalLight", {
                 color: globeConfig.directionalLeftLight,
                 position: new __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$three$2f$build$2f$three$2e$core$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Vector3"](-400, 100, 400)
             }, void 0, false, {
                 fileName: "[project]/components/ui/Globe.tsx",
-                lineNumber: 257,
-                columnNumber: 13
+                lineNumber: 265,
+                columnNumber: 4
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("directionalLight", {
                 color: globeConfig.directionalTopLight,
                 position: new __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$three$2f$build$2f$three$2e$core$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Vector3"](-200, 500, 200)
             }, void 0, false, {
                 fileName: "[project]/components/ui/Globe.tsx",
-                lineNumber: 261,
-                columnNumber: 13
+                lineNumber: 269,
+                columnNumber: 4
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("pointLight", {
                 color: globeConfig.pointLight,
@@ -274,15 +274,15 @@ function World(props) {
                 intensity: 0.8
             }, void 0, false, {
                 fileName: "[project]/components/ui/Globe.tsx",
-                lineNumber: 265,
-                columnNumber: 13
+                lineNumber: 273,
+                columnNumber: 4
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Globe, {
                 ...props
             }, void 0, false, {
                 fileName: "[project]/components/ui/Globe.tsx",
-                lineNumber: 270,
-                columnNumber: 13
+                lineNumber: 278,
+                columnNumber: 4
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$react$2d$three$2f$drei$2f$core$2f$OrbitControls$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["OrbitControls"], {
                 enablePan: false,
@@ -295,23 +295,23 @@ function World(props) {
                 maxPolarAngle: Math.PI - Math.PI / 3
             }, void 0, false, {
                 fileName: "[project]/components/ui/Globe.tsx",
-                lineNumber: 271,
-                columnNumber: 13
+                lineNumber: 279,
+                columnNumber: 4
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/ui/Globe.tsx",
-        lineNumber: 254,
-        columnNumber: 9
+        lineNumber: 259,
+        columnNumber: 3
     }, this);
 }
 _c2 = World;
 function hexToRgb(hex) {
-    var shorthandRegex = /^#?([a-f\d])([a-f\d])([a-f\d])$/i;
+    const shorthandRegex = /^#?([a-f\d])([a-f\d])([a-f\d])$/i;
     hex = hex.replace(shorthandRegex, function(m, r, g, b) {
         return r + r + g + g + b + b;
     });
-    var result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
+    const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
     return result ? {
         r: parseInt(result[1], 16),
         g: parseInt(result[2], 16),

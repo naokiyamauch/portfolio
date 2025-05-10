@@ -37,10 +37,10 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 ;
 var _s = __turbopack_context__.k.signature();
-"use client";
+'use client';
 ;
 ;
-const BackgroundGradientAnimation = ({ gradientBackgroundStart = "rgb(108, 0, 162)", gradientBackgroundEnd = "rgb(0, 17, 82)", firstColor = "18, 113, 255", secondColor = "221, 74, 255", thirdColor = "100, 220, 255", fourthColor = "200, 50, 50", fifthColor = "180, 180, 50", pointerColor = "140, 100, 255", size = "80%", blendingValue = "hard-light", children, className, interactive = true, containerClassName })=>{
+const BackgroundGradientAnimation = ({ gradientBackgroundStart = 'rgb(108, 0, 162)', gradientBackgroundEnd = 'rgb(0, 17, 82)', firstColor = '18, 113, 255', secondColor = '221, 74, 255', thirdColor = '100, 220, 255', fourthColor = '200, 50, 50', fifthColor = '180, 180, 50', pointerColor = '140, 100, 255', size = '80%', blendingValue = 'hard-light', children, className, interactive = true, containerClassName })=>{
     _s();
     const interactiveRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
     const [curX, setCurX] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(0);
@@ -49,16 +49,16 @@ const BackgroundGradientAnimation = ({ gradientBackgroundStart = "rgb(108, 0, 16
     const [tgY, setTgY] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(0);
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "BackgroundGradientAnimation.useEffect": ()=>{
-            document.body.style.setProperty("--gradient-background-start", gradientBackgroundStart);
-            document.body.style.setProperty("--gradient-background-end", gradientBackgroundEnd);
-            document.body.style.setProperty("--first-color", firstColor);
-            document.body.style.setProperty("--second-color", secondColor);
-            document.body.style.setProperty("--third-color", thirdColor);
-            document.body.style.setProperty("--fourth-color", fourthColor);
-            document.body.style.setProperty("--fifth-color", fifthColor);
-            document.body.style.setProperty("--pointer-color", pointerColor);
-            document.body.style.setProperty("--size", size);
-            document.body.style.setProperty("--blending-value", blendingValue);
+            document.body.style.setProperty('--gradient-background-start', gradientBackgroundStart);
+            document.body.style.setProperty('--gradient-background-end', gradientBackgroundEnd);
+            document.body.style.setProperty('--first-color', firstColor);
+            document.body.style.setProperty('--second-color', secondColor);
+            document.body.style.setProperty('--third-color', thirdColor);
+            document.body.style.setProperty('--fourth-color', fourthColor);
+            document.body.style.setProperty('--fifth-color', fifthColor);
+            document.body.style.setProperty('--pointer-color', pointerColor);
+            document.body.style.setProperty('--size', size);
+            document.body.style.setProperty('--blending-value', blendingValue);
         }
     }["BackgroundGradientAnimation.useEffect"], []);
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
@@ -91,7 +91,7 @@ const BackgroundGradientAnimation = ({ gradientBackgroundStart = "rgb(108, 0, 16
         }
     }["BackgroundGradientAnimation.useEffect"], []);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("h-full w-full absolute overflow-hidden top-0 left-0 bg-[linear-gradient(40deg,var(--gradient-background-start),var(--gradient-background-end))]", containerClassName),
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])('h-full w-full absolute overflow-hidden top-0 left-0 bg-[linear-gradient(40deg,var(--gradient-background-start),var(--gradient-background-end))]', containerClassName),
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
                 className: "hidden",
@@ -106,7 +106,7 @@ const BackgroundGradientAnimation = ({ gradientBackgroundStart = "rgb(108, 0, 16
                             }, void 0, false, {
                                 fileName: "[project]/components/ui/GradientBg.tsx",
                                 lineNumber: 99,
-                                columnNumber: 25
+                                columnNumber: 7
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("feColorMatrix", {
                                 in: "blur",
@@ -116,7 +116,7 @@ const BackgroundGradientAnimation = ({ gradientBackgroundStart = "rgb(108, 0, 16
                             }, void 0, false, {
                                 fileName: "[project]/components/ui/GradientBg.tsx",
                                 lineNumber: 104,
-                                columnNumber: 25
+                                columnNumber: 7
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("feBlend", {
                                 in: "SourceGraphic",
@@ -124,69 +124,69 @@ const BackgroundGradientAnimation = ({ gradientBackgroundStart = "rgb(108, 0, 16
                             }, void 0, false, {
                                 fileName: "[project]/components/ui/GradientBg.tsx",
                                 lineNumber: 110,
-                                columnNumber: 25
+                                columnNumber: 7
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/components/ui/GradientBg.tsx",
                         lineNumber: 98,
-                        columnNumber: 21
+                        columnNumber: 6
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/ui/GradientBg.tsx",
                     lineNumber: 97,
-                    columnNumber: 17
+                    columnNumber: 5
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/ui/GradientBg.tsx",
                 lineNumber: 96,
-                columnNumber: 13
+                columnNumber: 4
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("", className),
+                className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])('', className),
                 children: children
             }, void 0, false, {
                 fileName: "[project]/components/ui/GradientBg.tsx",
                 lineNumber: 114,
-                columnNumber: 13
+                columnNumber: 4
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("gradients-container h-full w-full blur-lg", isSafari ? "blur-2xl" : "[filter:url(#blurMe)_blur(40px)]"),
+                className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])('gradients-container h-full w-full blur-lg', isSafari ? 'blur-2xl' : '[filter:url(#blurMe)_blur(40px)]'),
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])(`absolute [background:radial-gradient(circle_at_center,_var(--first-color)_0,_var(--first-color)_50%)_no-repeat]`, `[mix-blend-mode:var(--blending-value)] w-[var(--size)] h-[var(--size)] top-[calc(50%-var(--size)/2)] left-[calc(50%-var(--size)/2)]`, `[transform-origin:center_center]`, `animate-first`, `opacity-100`)
                     }, void 0, false, {
                         fileName: "[project]/components/ui/GradientBg.tsx",
                         lineNumber: 121,
-                        columnNumber: 17
+                        columnNumber: 5
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])(`absolute [background:radial-gradient(circle_at_center,_rgba(var(--second-color),_0.8)_0,_rgba(var(--second-color),_0)_50%)_no-repeat]`, `[mix-blend-mode:var(--blending-value)] w-[var(--size)] h-[var(--size)] top-[calc(50%-var(--size)/2)] left-[calc(50%-var(--size)/2)]`, `[transform-origin:calc(50%-400px)]`, `animate-second`, `opacity-100`)
                     }, void 0, false, {
                         fileName: "[project]/components/ui/GradientBg.tsx",
                         lineNumber: 130,
-                        columnNumber: 17
+                        columnNumber: 5
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])(`absolute [background:radial-gradient(circle_at_center,_rgba(var(--third-color),_0.8)_0,_rgba(var(--third-color),_0)_50%)_no-repeat]`, `[mix-blend-mode:var(--blending-value)] w-[var(--size)] h-[var(--size)] top-[calc(50%-var(--size)/2)] left-[calc(50%-var(--size)/2)]`, `[transform-origin:calc(50%+400px)]`, `animate-third`, `opacity-100`)
                     }, void 0, false, {
                         fileName: "[project]/components/ui/GradientBg.tsx",
                         lineNumber: 139,
-                        columnNumber: 17
+                        columnNumber: 5
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])(`absolute [background:radial-gradient(circle_at_center,_rgba(var(--fourth-color),_0.8)_0,_rgba(var(--fourth-color),_0)_50%)_no-repeat]`, `[mix-blend-mode:var(--blending-value)] w-[var(--size)] h-[var(--size)] top-[calc(50%-var(--size)/2)] left-[calc(50%-var(--size)/2)]`, `[transform-origin:calc(50%-200px)]`, `animate-fourth`, `opacity-70`)
                     }, void 0, false, {
                         fileName: "[project]/components/ui/GradientBg.tsx",
                         lineNumber: 148,
-                        columnNumber: 17
+                        columnNumber: 5
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])(`absolute [background:radial-gradient(circle_at_center,_rgba(var(--fifth-color),_0.8)_0,_rgba(var(--fifth-color),_0)_50%)_no-repeat]`, `[mix-blend-mode:var(--blending-value)] w-[var(--size)] h-[var(--size)] top-[calc(50%-var(--size)/2)] left-[calc(50%-var(--size)/2)]`, `[transform-origin:calc(50%-800px)_calc(50%+800px)]`, `animate-fifth`, `opacity-100`)
                     }, void 0, false, {
                         fileName: "[project]/components/ui/GradientBg.tsx",
                         lineNumber: 157,
-                        columnNumber: 17
+                        columnNumber: 5
                     }, this),
                     interactive && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         ref: interactiveRef,
@@ -195,19 +195,19 @@ const BackgroundGradientAnimation = ({ gradientBackgroundStart = "rgb(108, 0, 16
                     }, void 0, false, {
                         fileName: "[project]/components/ui/GradientBg.tsx",
                         lineNumber: 168,
-                        columnNumber: 21
+                        columnNumber: 6
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/ui/GradientBg.tsx",
                 lineNumber: 115,
-                columnNumber: 13
+                columnNumber: 4
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/ui/GradientBg.tsx",
         lineNumber: 90,
-        columnNumber: 9
+        columnNumber: 3
     }, this);
 };
 _s(BackgroundGradientAnimation, "Ali8l7wYwjWjM6LZy8MVbYYZnHM=");
@@ -229,7 +229,7 @@ __turbopack_context__.s({
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$shared$2f$lib$2f$app$2d$dynamic$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/shared/lib/app-dynamic.js [app-client] (ecmascript)");
 ;
-"use client";
+'use client';
 ;
 ;
 const World = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$shared$2f$lib$2f$app$2d$dynamic$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"])(()=>__turbopack_context__.r("[project]/components/ui/Globe.tsx [app-client] (ecmascript, next/dynamic entry, async loader)")(__turbopack_context__.i).then((m)=>m.World), {
@@ -244,18 +244,18 @@ _c = World;
 function GlobeDemo() {
     const globeConfig = {
         pointSize: 4,
-        globeColor: "#062056",
+        globeColor: '#062056',
         showAtmosphere: true,
-        atmosphereColor: "#FFFFFF",
+        atmosphereColor: '#FFFFFF',
         atmosphereAltitude: 0.1,
-        emissive: "#062056",
+        emissive: '#062056',
         emissiveIntensity: 0.1,
         shininess: 0.9,
-        polygonColor: "rgba(255,255,255,0.7)",
-        ambientLight: "#38bdf8",
-        directionalLeftLight: "#ffffff",
-        directionalTopLight: "#ffffff",
-        pointLight: "#ffffff",
+        polygonColor: 'rgba(255,255,255,0.7)',
+        ambientLight: '#38bdf8',
+        directionalLeftLight: '#ffffff',
+        directionalTopLight: '#ffffff',
+        pointLight: '#ffffff',
         arcTime: 1000,
         arcLength: 0.9,
         rings: 1,
@@ -268,9 +268,9 @@ function GlobeDemo() {
         autoRotateSpeed: 0.5
     };
     const colors = [
-        "#06b6d4",
-        "#3b82f6",
-        "#6366f1"
+        '#06b6d4',
+        '#3b82f6',
+        '#6366f1'
     ];
     const sampleArcs = [
         {
@@ -644,7 +644,7 @@ function GlobeDemo() {
                 }, void 0, false, {
                     fileName: "[project]/components/ui/GridGlobe.tsx",
                     lineNumber: 398,
-                    columnNumber: 17
+                    columnNumber: 5
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "absolute w-full h-72 md:h-full z-10",
@@ -654,23 +654,23 @@ function GlobeDemo() {
                     }, void 0, false, {
                         fileName: "[project]/components/ui/GridGlobe.tsx",
                         lineNumber: 400,
-                        columnNumber: 21
+                        columnNumber: 6
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/ui/GridGlobe.tsx",
                     lineNumber: 399,
-                    columnNumber: 17
+                    columnNumber: 5
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/ui/GridGlobe.tsx",
             lineNumber: 397,
-            columnNumber: 13
+            columnNumber: 4
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/ui/GridGlobe.tsx",
         lineNumber: 396,
-        columnNumber: 9
+        columnNumber: 3
     }, this);
 }
 _c1 = GlobeDemo;
@@ -691,7 +691,7 @@ __turbopack_context__.s({
 });
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
 ;
-const MagicButton = ({ title, icon = null, position = "left", handleClick, otherClasses = "" })=>{
+const MagicButton = ({ title, icon = null, position = 'left', handleClick, otherClasses = '' })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
         className: "relative inline-flex h-12 w-full overflow-hidden rounded-lg p-[1px] focus:outline-none md:w-60 md:mt-10",
         onClick: handleClick,
@@ -700,8 +700,8 @@ const MagicButton = ({ title, icon = null, position = "left", handleClick, other
                 className: "absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]"
             }, void 0, false, {
                 fileName: "[project]/components/ui/MagicButton.tsx",
-                lineNumber: 18,
-                columnNumber: 13
+                lineNumber: 21,
+                columnNumber: 4
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                 className: `inline-flex h-full w-full cursor-pointer items-center justify-center rounded-lg bg-slate-950 px-7 text-sm font-medium text-white backdrop-blur-3xl gap-2 ${otherClasses}`,
@@ -712,14 +712,14 @@ const MagicButton = ({ title, icon = null, position = "left", handleClick, other
                 ]
             }, void 0, true, {
                 fileName: "[project]/components/ui/MagicButton.tsx",
-                lineNumber: 19,
-                columnNumber: 13
+                lineNumber: 22,
+                columnNumber: 4
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/components/ui/MagicButton.tsx",
         lineNumber: 17,
-        columnNumber: 9
+        columnNumber: 3
     }, this);
 };
 _c = MagicButton;
@@ -751,7 +751,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$MagicBut
 ;
 ;
 var _s = __turbopack_context__.k.signature();
-"use client";
+'use client';
 ;
 ;
 ;
@@ -771,12 +771,12 @@ const Lottie = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$
 _c = Lottie;
 const BentoGrid = ({ className, children })=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("grid grid-cols-1 md:grid-cols-6 lg:grid-cols-5 md:grid-row-7 gap-4 lg:gap-8 mx-auto", className),
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])('grid grid-cols-1 md:grid-cols-6 lg:grid-cols-5 md:grid-row-7 gap-4 lg:gap-8 mx-auto', className),
         children: children
     }, void 0, false, {
         fileName: "[project]/components/ui/BentoGrid.tsx",
         lineNumber: 23,
-        columnNumber: 9
+        columnNumber: 3
     }, this);
 };
 _c1 = BentoGrid;
@@ -788,32 +788,32 @@ const BentoGridItem = ({ className, id, title, description, img, imgClassName, t
         setCopied(true);
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("group/bento shadow-input row-span-1 overflow-hidden relative flex flex-col justify-between space-y-4 rounded-xl transition duration-200 hover:shadow-xl dark:shadow-none border border-white/10", className),
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])('group/bento shadow-input row-span-1 overflow-hidden relative flex flex-col justify-between space-y-4 rounded-xl transition duration-200 hover:shadow-xl dark:shadow-none border border-white/10', className),
         style: {
-            background: "rgb(4,7,29)",
-            backgroundColor: "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)"
+            background: 'rgb(4,7,29)',
+            backgroundColor: 'linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)'
         },
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: `${id === 6 && "flex justify-center"} h-full`,
+            className: `${id === 6 && 'flex justify-center'} h-full`,
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "w-full h-full absolute",
                     children: img && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                         src: img,
                         alt: img,
-                        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])(imgClassName, "object-cover object-center ")
+                        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])(imgClassName, 'object-cover object-center ')
                     }, void 0, false, {
                         fileName: "[project]/components/ui/BentoGrid.tsx",
                         lineNumber: 77,
-                        columnNumber: 25
+                        columnNumber: 7
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/ui/BentoGrid.tsx",
                     lineNumber: 75,
-                    columnNumber: 17
+                    columnNumber: 5
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: `absolute right-0 -bottom-5 ${id === 5 && "w-full opacity-80"} `,
+                    className: `absolute right-0 -bottom-5 ${id === 5 && 'w-full opacity-80'} `,
                     children: spareImg && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
                         src: spareImg,
                         alt: spareImg,
@@ -821,50 +821,50 @@ const BentoGridItem = ({ className, id, title, description, img, imgClassName, t
                         className: "object-cover object-center w-full h-full"
                     }, void 0, false, {
                         fileName: "[project]/components/ui/BentoGrid.tsx",
-                        lineNumber: 89,
-                        columnNumber: 25
+                        lineNumber: 93,
+                        columnNumber: 7
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/ui/BentoGrid.tsx",
-                    lineNumber: 84,
-                    columnNumber: 17
+                    lineNumber: 87,
+                    columnNumber: 5
                 }, this),
                 id === 6 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$GradientBg$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["BackgroundGradientAnimation"], {
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "absolute z-50 inset-0 flex items-center justify-center text-white font-bold px-4 pointer-events-none text-3xl text-center md:text-4xl lg:text-7xl"
                     }, void 0, false, {
                         fileName: "[project]/components/ui/BentoGrid.tsx",
-                        lineNumber: 100,
-                        columnNumber: 25
+                        lineNumber: 104,
+                        columnNumber: 7
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/ui/BentoGrid.tsx",
-                    lineNumber: 99,
-                    columnNumber: 21
+                    lineNumber: 103,
+                    columnNumber: 6
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])(titleClassName, "group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10"),
+                    className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])(titleClassName, 'group-hover/bento:translate-x-2 transition duration-200 relative md:h-full min-h-40 flex flex-col px-5 p-5 lg:p-10'),
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "font-sans text-sm font-extralight text-[#c1c2d3] md:text-xs lg:text-base z-10",
                             children: description
                         }, void 0, false, {
                             fileName: "[project]/components/ui/BentoGrid.tsx",
-                            lineNumber: 109,
-                            columnNumber: 21
+                            lineNumber: 114,
+                            columnNumber: 6
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "font-sans font-bold text-lg lg:text-3xl max-w-96 z-10",
                             children: title
                         }, void 0, false, {
                             fileName: "[project]/components/ui/BentoGrid.tsx",
-                            lineNumber: 113,
-                            columnNumber: 21
+                            lineNumber: 118,
+                            columnNumber: 6
                         }, this),
                         id === 2 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$GridGlobe$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["GlobeDemo"], {}, void 0, false, {
                             fileName: "[project]/components/ui/BentoGrid.tsx",
-                            lineNumber: 118,
-                            columnNumber: 34
+                            lineNumber: 122,
+                            columnNumber: 19
                         }, this),
                         id === 3 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2",
@@ -881,21 +881,21 @@ const BentoGridItem = ({ className, id, title, description, img, imgClassName, t
                                                 children: item
                                             }, item, false, {
                                                 fileName: "[project]/components/ui/BentoGrid.tsx",
-                                                lineNumber: 124,
-                                                columnNumber: 37
+                                                lineNumber: 129,
+                                                columnNumber: 11
                                             }, this)),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                             className: "py-4 px-3 rounded-lg text-center bg-[#10132e]"
                                         }, void 0, false, {
                                             fileName: "[project]/components/ui/BentoGrid.tsx",
-                                            lineNumber: 128,
-                                            columnNumber: 33
+                                            lineNumber: 137,
+                                            columnNumber: 9
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/ui/BentoGrid.tsx",
-                                    lineNumber: 122,
-                                    columnNumber: 29
+                                    lineNumber: 126,
+                                    columnNumber: 8
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "flex flex-col gap-3 lg:gap-8",
@@ -904,8 +904,8 @@ const BentoGridItem = ({ className, id, title, description, img, imgClassName, t
                                             className: "py-4 px-3 rounded-lg text-center bg-[#10132e]"
                                         }, void 0, false, {
                                             fileName: "[project]/components/ui/BentoGrid.tsx",
-                                            lineNumber: 132,
-                                            columnNumber: 33
+                                            lineNumber: 140,
+                                            columnNumber: 9
                                         }, this),
                                         [
                                             'Express',
@@ -916,20 +916,20 @@ const BentoGridItem = ({ className, id, title, description, img, imgClassName, t
                                                 children: item
                                             }, item, false, {
                                                 fileName: "[project]/components/ui/BentoGrid.tsx",
-                                                lineNumber: 135,
-                                                columnNumber: 37
+                                                lineNumber: 143,
+                                                columnNumber: 11
                                             }, this))
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/ui/BentoGrid.tsx",
-                                    lineNumber: 131,
-                                    columnNumber: 29
+                                    lineNumber: 139,
+                                    columnNumber: 8
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/ui/BentoGrid.tsx",
-                            lineNumber: 121,
-                            columnNumber: 25
+                            lineNumber: 125,
+                            columnNumber: 7
                         }, this),
                         id === 6 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "mt-5 relative",
@@ -947,50 +947,50 @@ const BentoGridItem = ({ className, id, title, description, img, imgClassName, t
                                         }
                                     }, void 0, false, {
                                         fileName: "[project]/components/ui/BentoGrid.tsx",
-                                        lineNumber: 147,
-                                        columnNumber: 33
+                                        lineNumber: 158,
+                                        columnNumber: 9
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/ui/BentoGrid.tsx",
-                                    lineNumber: 146,
-                                    columnNumber: 29
+                                    lineNumber: 157,
+                                    columnNumber: 8
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$ui$2f$MagicButton$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                     title: copied ? 'Email copied' : 'Copy my email',
                                     icon: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$react$2d$icons$2f$io5$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["IoCopyOutline"], {}, void 0, false, {
                                         fileName: "[project]/components/ui/BentoGrid.tsx",
-                                        lineNumber: 159,
-                                        columnNumber: 39
+                                        lineNumber: 175,
+                                        columnNumber: 15
                                     }, void 0),
                                     otherClasses: "!bg-[#161a31]",
                                     handleClick: handleCopy
                                 }, void 0, false, {
                                     fileName: "[project]/components/ui/BentoGrid.tsx",
-                                    lineNumber: 157,
-                                    columnNumber: 29
+                                    lineNumber: 171,
+                                    columnNumber: 8
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/ui/BentoGrid.tsx",
-                            lineNumber: 145,
-                            columnNumber: 25
+                            lineNumber: 156,
+                            columnNumber: 7
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/ui/BentoGrid.tsx",
-                    lineNumber: 105,
-                    columnNumber: 17
+                    lineNumber: 108,
+                    columnNumber: 5
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/ui/BentoGrid.tsx",
             lineNumber: 74,
-            columnNumber: 13
+            columnNumber: 4
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/ui/BentoGrid.tsx",
         lineNumber: 62,
-        columnNumber: 9
+        columnNumber: 3
     }, this);
 };
 _s(BentoGridItem, "NE86rL3vg4NVcTTWDavsT0hUBJs=");
@@ -1019,19 +1019,19 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$motion$2f$di
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 ;
 var _s = __turbopack_context__.k.signature();
-"use client";
+'use client';
 ;
 ;
 ;
 const TextGenerateEffect = ({ words, className, filter = true, duration = 0.5 })=>{
     _s();
     const [scope, animate] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$motion$2f$dist$2f$es$2f$framer$2d$motion$2f$dist$2f$es$2f$animation$2f$hooks$2f$use$2d$animate$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useAnimate"])();
-    let wordsArray = words.split(" ");
+    const wordsArray = words.split(' ');
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "TextGenerateEffect.useEffect": ()=>{
-            animate("span", {
+            animate('span', {
                 opacity: 1,
-                filter: filter ? "blur(0px)" : "none"
+                filter: filter ? 'blur(0px)' : 'none'
             }, {
                 duration: duration ? duration : 1,
                 delay: (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$motion$2f$dist$2f$es$2f$framer$2d$motion$2f$dist$2f$es$2f$animation$2f$utils$2f$stagger$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["stagger"])(0.2)
@@ -1046,28 +1046,28 @@ const TextGenerateEffect = ({ words, className, filter = true, duration = 0.5 })
             children: wordsArray.map((word, idx)=>{
                 return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$motion$2f$dist$2f$es$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].span, {
                     // change here if idx is greater than 3, change the text color to #CBACF9
-                    className: `${idx > 3 ? "text-purple" : "dark:text-white text-black"} opacity-0`,
+                    className: `${idx > 3 ? 'text-purple' : 'dark:text-white text-black'} opacity-0`,
                     style: {
-                        filter: filter ? "blur(10px)" : "none"
+                        filter: filter ? 'blur(10px)' : 'none'
                     },
                     children: [
                         word,
-                        " "
+                        ' '
                     ]
                 }, word + idx, true, {
                     fileName: "[project]/components/ui/TextGenerateEffect.tsx",
                     lineNumber: 38,
-                    columnNumber: 25
+                    columnNumber: 7
                 }, this);
             })
         }, void 0, false, {
             fileName: "[project]/components/ui/TextGenerateEffect.tsx",
             lineNumber: 35,
-            columnNumber: 13
+            columnNumber: 4
         }, this);
     };
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("font-bold", className),
+        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])('font-bold', className),
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "my-4",
             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1075,18 +1075,18 @@ const TextGenerateEffect = ({ words, className, filter = true, duration = 0.5 })
                 children: renderWords()
             }, void 0, false, {
                 fileName: "[project]/components/ui/TextGenerateEffect.tsx",
-                lineNumber: 57,
-                columnNumber: 17
+                lineNumber: 61,
+                columnNumber: 5
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/ui/TextGenerateEffect.tsx",
-            lineNumber: 56,
-            columnNumber: 13
+            lineNumber: 60,
+            columnNumber: 4
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/ui/TextGenerateEffect.tsx",
-        lineNumber: 55,
-        columnNumber: 9
+        lineNumber: 59,
+        columnNumber: 3
     }, this);
 };
 _s(TextGenerateEffect, "crQrtxD822sFKyor5CO2nze/XGc=", false, function() {
@@ -1118,7 +1118,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$motion$2f$di
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/compiled/react/index.js [app-client] (ecmascript)");
 ;
 var _s = __turbopack_context__.k.signature();
-"use client";
+'use client';
 ;
 ;
 ;
@@ -1126,11 +1126,11 @@ const FloatingNav = ({ navItems, className })=>{
     _s();
     const { scrollYProgress } = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$motion$2f$dist$2f$es$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$scroll$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useScroll"])();
     const [visible, setVisible] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
-    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$motion$2f$dist$2f$es$2f$framer$2d$motion$2f$dist$2f$es$2f$utils$2f$use$2d$motion$2d$value$2d$event$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useMotionValueEvent"])(scrollYProgress, "change", {
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$motion$2f$dist$2f$es$2f$framer$2d$motion$2f$dist$2f$es$2f$utils$2f$use$2d$motion$2d$value$2d$event$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useMotionValueEvent"])(scrollYProgress, 'change', {
         "FloatingNav.useMotionValueEvent": (current)=>{
             // Check if current is not undefined and is a number
-            if (typeof current === "number") {
-                let direction = current - scrollYProgress.getPrevious();
+            if (typeof current === 'number') {
+                const direction = current - scrollYProgress.getPrevious();
                 if (scrollYProgress.get() < 0.05) {
                     setVisible(false);
                 } else {
@@ -1157,33 +1157,33 @@ const FloatingNav = ({ navItems, className })=>{
             transition: {
                 duration: 0.2
             },
-            className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("flex max-w-fit  fixed top-10 inset-x-0 mx-auto border border-transparent dark:border-white/[0.2] rounded-full dark:bg-black bg-white shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] z-[5000] pr-2 pl-8 py-2  items-center justify-center space-x-4", className),
+            className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])('flex max-w-fit  fixed top-10 inset-x-0 mx-auto border border-transparent dark:border-white/[0.2] rounded-full dark:bg-black bg-white shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)] z-[5000] pr-2 pl-8 py-2  items-center justify-center space-x-4', className),
             children: [
                 navItems.map((navItem, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                         href: navItem.link,
-                        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])("relative dark:text-neutral-50 items-center flex space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500"),
+                        className: (0, __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$utils$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["cn"])('relative dark:text-neutral-50 items-center flex space-x-1 text-neutral-600 dark:hover:text-neutral-300 hover:text-neutral-500'),
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 className: "block sm:hidden",
                                 children: navItem.icon
                             }, void 0, false, {
                                 fileName: "[project]/components/ui/FloatingNav.tsx",
-                                lineNumber: 71,
-                                columnNumber: 25
+                                lineNumber: 70,
+                                columnNumber: 7
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 className: "hidden sm:block text-sm",
                                 children: navItem.name
                             }, void 0, false, {
                                 fileName: "[project]/components/ui/FloatingNav.tsx",
-                                lineNumber: 72,
-                                columnNumber: 25
+                                lineNumber: 71,
+                                columnNumber: 7
                             }, this)
                         ]
                     }, `link=${idx}`, true, {
                         fileName: "[project]/components/ui/FloatingNav.tsx",
-                        lineNumber: 64,
-                        columnNumber: 21
+                        lineNumber: 63,
+                        columnNumber: 6
                     }, this)),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                     className: "border text-sm font-medium relative border-neutral-200 dark:border-white/[0.2] text-black dark:text-white px-4 py-2 rounded-full",
@@ -1192,32 +1192,32 @@ const FloatingNav = ({ navItems, className })=>{
                             children: "Login"
                         }, void 0, false, {
                             fileName: "[project]/components/ui/FloatingNav.tsx",
-                            lineNumber: 76,
-                            columnNumber: 21
+                            lineNumber: 77,
+                            columnNumber: 6
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                             className: "absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-blue-500 to-transparent  h-px"
                         }, void 0, false, {
                             fileName: "[project]/components/ui/FloatingNav.tsx",
-                            lineNumber: 77,
-                            columnNumber: 21
+                            lineNumber: 78,
+                            columnNumber: 6
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/ui/FloatingNav.tsx",
-                    lineNumber: 75,
-                    columnNumber: 17
+                    lineNumber: 76,
+                    columnNumber: 5
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/ui/FloatingNav.tsx",
-            lineNumber: 46,
-            columnNumber: 13
+            lineNumber: 45,
+            columnNumber: 4
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/ui/FloatingNav.tsx",
-        lineNumber: 45,
-        columnNumber: 9
+        lineNumber: 44,
+        columnNumber: 3
     }, this);
 };
 _s(FloatingNav, "im9pZNlcXXzn1/AZwMke1Owg6OA=", false, function() {
