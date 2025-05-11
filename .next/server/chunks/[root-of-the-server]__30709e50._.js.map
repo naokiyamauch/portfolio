@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
-    {"offset": {"line": 60, "column": 0}, "map": {"version":3,"sources":["file:///Users/naokiyamauchi/github/portfolio/app/api/sentry-example-api/route.ts"],"sourcesContent":["import { NextResponse } from \"next/server\";\n\nexport const dynamic = \"force-dynamic\";\nclass SentryExampleAPIError extends Error {\n  constructor(message: string | undefined) {\n    super(message);\n    this.name = \"SentryExampleAPIError\";\n  }\n}\n// A faulty API route to test Sentry's error monitoring\nexport function GET() {\n  throw new SentryExampleAPIError(\"This error is raised on the backend called by the example page.\");\n  return NextResponse.json({ data: \"Testing Sentry Error...\" });\n}\n"],"names":[],"mappings":";;;;AAAA;;AAEO,MAAM,UAAU;AACvB,MAAM,8BAA8B;IAClC,YAAY,OAA2B,CAAE;QACvC,KAAK,CAAC;QACN,IAAI,CAAC,IAAI,GAAG;IACd;AACF;AAEO,SAAS;IACd,MAAM,IAAI,sBAAsB;IAChC,OAAO,gIAAA,CAAA,eAAY,CAAC,IAAI,CAAC;QAAE,MAAM;IAA0B;AAC7D","debugId":null}}]
-}
