@@ -16,14 +16,14 @@
       "static/chunks/node_modules_h3-js_dist_browser_h3-js_es_d64818f0.js",
       "static/chunks/node_modules_three-globe_dist_three-globe_mjs_545799d5._.js",
       "static/chunks/node_modules_f89ebb63._.js",
-      "static/chunks/components_ui_Globe_tsx_c6eb145f._.js"
+      "static/chunks/components_ui_Globe_tsx_f2da4424._.js"
     ]
   },
   "[project]/node_modules/react-lottie/dist/index.js [app-client] (ecmascript, next/dynamic entry)": {
     "id": "[project]/node_modules/react-lottie/dist/index.js [app-client] (ecmascript, next/dynamic entry)",
     "files": [
       "static/chunks/node_modules_79140bbb._.js",
-      "static/chunks/node_modules_react-lottie_dist_index_c6eb145f.js"
+      "static/chunks/node_modules_react-lottie_dist_index_f2da4424.js"
     ]
   }
 }
