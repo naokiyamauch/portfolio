@@ -15,7 +15,7 @@ export default withSentryConfig(
 		// https://www.npmjs.com/package/@sentry/webpack-plugin#options
 
 		org: 'naoki-yamauchi',
-		project: 'javascript-nextjs',
+		project: 'portfolio',
 
 		// Only print logs for uploading source maps in CI
 		silent: !process.env.CI,
@@ -46,7 +46,7 @@ export default withSentryConfig(
 		// https://www.npmjs.com/package/@sentry/webpack-plugin#options
 
 		org: 'naoki-yamauchi',
-		project: 'javascript-nextjs',
+		project: 'portfolio',
 
 		// Only print logs for uploading source maps in CI
 		silent: !process.env.CI,
